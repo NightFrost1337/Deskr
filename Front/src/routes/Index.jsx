@@ -9,7 +9,7 @@ export default function Home() {
             <h1 className="text-xl font-bold bg-black text-transparent bg-clip-text">
                 Deskr
             </h1>
-            <Button onClick={() => navigate('/videoscreen')}><span className="mt-1">Start</span></Button>
+            <Button onClick={() => navigate('/dash/dashboard')}><span className="mt-1">Start</span></Button>
         </div>
     )
 }
